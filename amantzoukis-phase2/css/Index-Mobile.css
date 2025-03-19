@@ -1,0 +1,51 @@
+@import url(./reset.css);
+@import url(./Index-Desktop.css);
+
+h2{
+    font-size: 5vw;
+}
+  
+p{
+    font-size: 1,5vw;
+}
+
+#aboutme{
+    grid-area: aboutme;
+    background-color: #070101;
+    padding: 5rem;
+    text-align: center;
+    color: #58ff41;
+    margin: 0;
+}
+
+#skills{
+    grid-area: skills;
+    background-color: #6b3db9;
+    padding: 5rem;
+    color: white;
+    text-align: center;
+    margin: 0;
+    
+
+}
+
+#skills a{
+    color: white;
+}
+
+#blog{
+    grid-area: blog;
+    background-color: #070101;
+    color: #58ff41;
+    padding: 5rem;
+    text-align: center;
+    margin: 0;
+
+}
+#footer{
+    grid-area: footer;
+    background-color: #393333;
+    color: #58ff41;
+    padding: 2rem;
+    margin: 0;
+}

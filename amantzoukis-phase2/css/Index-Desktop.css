@@ -1,0 +1,182 @@
+@import url('./reset.css');
+
+body{
+  background-color: #070101;
+}
+
+h2{
+  font-size: 3rem;
+}
+
+p{
+  font-size: 1,5rem;
+}
+
+a{
+  text-decoration: none;
+  color: #58ff41;
+}
+
+/*Font classes*/
+.share-tech{
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.source-code {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.pixelify-sans-title {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+  
+
+/*Grid layout*/
+grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'aboutme'
+    'skills'
+    'blog'
+    'footer'
+    ;
+    gap: 0,5rem;
+    min-height: 100vh;
+}
+
+#header{ 
+    grid-area: header;
+    background-color: #6b3db9;
+    color: white;
+}
+#aboutme{
+    display: grid; 
+    grid-area: aboutme;
+    background-color: #070101;
+    padding: 10rem;
+    padding-right: 0;
+    text-align: right;
+    color: #58ff41;
+    
+}
+
+#skills{
+    display: grid; 
+    grid-area: skills;
+    background-color: #6b3db9;
+    padding: 10rem;
+    padding-left: 0;
+    color: white;
+    
+
+}
+
+#skills a{
+    color: white;
+}
+
+#blog{
+    display: grid; 
+    grid-area: blog;
+    background-color: #070101;
+    color: #58ff41;
+    padding: 10rem;
+    padding-right: 0;
+    text-align: right;
+
+}
+#footer{
+    display: grid; 
+    grid-area: footer;
+    background-color: #393333;
+    color: #58ff41;
+    padding: 2rem;
+}
+
+/*flex layout*/
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+#element1{
+  position: relative;
+  text-align: center;
+}
+
+
+.flex-container #element1 h1{
+  font-size: 3vw;
+  padding: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.flex-container #element1 figure{
+  max-width: 100% ;
+  height: auto;
+  z-index: -1;
+}
+
+.flex-container #element1 figure img{
+  max-width: 100% ;
+  height: auto;
+}
+
+.flex-container aside {
+    align-items: flex-end;
+}
+
+.flex-container aside figure{
+    max-width: 70% ;
+    height: auto;
+}
+
+.flex-container aside figure img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*animations*/
+a :hover{
+    opacity: 0.6;
+}
+
+.hovereffect a :hover{
+  opacity: 0.6;
+}
+
+h1{
+  white-space: nowrap;
+  border-right: 2px solid red;
+}
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+

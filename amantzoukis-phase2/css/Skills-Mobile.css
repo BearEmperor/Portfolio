@@ -1,0 +1,35 @@
+@import url(./reset.css);
+@import url(./Skills-Desktop.css);
+
+.flex-container{
+    display: block;
+    align-items: center;
+    justify-content: column;
+}
+
+.flex-container #element1{
+    text-align: center;
+}
+.flex-container ul {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    margin: 0;
+    font-size: 2rem;
+  }
+  .flex-container figure {
+    max-width: 100%;
+    max-height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .flex-container figure img {
+    max-width: 100%;
+    max-height: auto;  
+    margin: auto;
+  }
+
+  #welcome{
+    text-align: center;
+    padding: 2rem;
+}

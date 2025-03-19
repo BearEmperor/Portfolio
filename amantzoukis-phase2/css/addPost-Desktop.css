@@ -1,0 +1,82 @@
+@import url(reset.css);
+
+
+body{
+    padding: 3rem;
+    background-color: #be56e6;
+    color: #58ff41;
+    text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*form rules*/
+aside{
+  max-width: 100%;
+}
+
+fieldset{
+  border: 1px solid #58ff41;
+  background-color: #070101;
+  margin: auto;
+  padding: 3rem;
+  max-width: 100%;
+  font-size: 2vw;
+}
+
+legend{
+  background-color: #070101;
+  text-align: center;
+  border: 1px solid #58ff41;
+}
+
+#title{
+  margin-bottom: 2rem;
+}
+
+textarea{
+  resize: none;
+}
+
+input, textarea{
+  max-width: 50vw;
+}
+
+.button{
+  background-color: #070101;
+  max-width:20%;
+  height: auto;
+  display: inline;
+  margin: auto;
+  margin-top: 1rem;
+  font-size: 2vw;
+  border: 2px solid #58ff41;
+}
+
+.button p{
+  color: #58ff41;
+}
+
+#submit{
+  margin-right: 5rem;
+}
+
+#clear{
+ margin-left: 5rem;
+}
+
+.felx-box{
+  display: flex;
+  justify-content: left;
+  margin-top: 2rem;
+}
+
+/* animations*/
+.button:hover{
+  opacity: 0.8;
+}
+
+/*Login form*/
+
